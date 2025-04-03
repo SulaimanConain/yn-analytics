@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# PyCharm files
+.idea/
+
+# VS Code files
+.vscode/
+
+# Local development settings
+.env
+.flaskenv
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log 

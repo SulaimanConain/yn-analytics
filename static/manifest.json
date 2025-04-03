@@ -1,0 +1,16 @@
+{
+  "name": "YN-ANALYTICS",
+  "short_name": "YN-ANALYTICS",
+  "description": "Energy Management Solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00b8d4",
+  "icons": [
+    {
+      "src": "img/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+} 
