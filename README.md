@@ -35,7 +35,7 @@ yn-analytics/
 
 1. **Clone the repository**
    ```
-   git clone <repository-url>
+   git clone https://github.com/SulaimanConain/yn-analytics.git
    cd yn-analytics
    ```
 
