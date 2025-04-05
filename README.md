@@ -65,7 +65,6 @@ yn-analytics/
    Open your browser and navigate to http://127.0.0.1:5000/
    ```
 
-
 ## License
 
 Copyright © 2024 YN-ANALYTICS. All rights reserved. 
