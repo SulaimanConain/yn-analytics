@@ -65,56 +65,6 @@ yn-analytics/
    Open your browser and navigate to http://127.0.0.1:5000/
    ```
 
-## Customization
-
-To customize the application:
-
-- Update the content in `templates/index.html`
-- Modify styles in `static/css/style.css`
-- Add your Mapbox API key in `static/js/main.js`
-- Add your own images to `static/img/`
-
-## Production Deployment
-
-For production deployment:
-
-1. Set the appropriate environment variables
-
-2. **On Linux/Unix systems:**
-   Use Gunicorn to serve the application:
-   ```
-   # Make the script executable first
-   chmod +x start_server.sh
-   ./start_server.sh
-   ```
-   Or run Gunicorn directly:
-   ```
-   gunicorn --bind 0.0.0.0:5000 --workers 4 wsgi:app
-   ```
-
-3. **On Windows systems:**
-   Use Waitress (a production-ready WSGI server for Windows):
-   ```
-   # Install Waitress if not already installed
-   pip install waitress
-   
-   # Run with Waitress
-   .\start_windows_prod.ps1
-   ```
-   Or run directly with:
-   ```
-   python -m waitress --listen=0.0.0.0:5000 wsgi:app
-   ```
-   
-   Alternatively, for development purposes:
-   ```
-   .\start_windows.ps1
-   ```
-
-4. Set up a reverse proxy with Nginx or Apache
-
-5. Consider containerizing with Docker
-
 ## License
 
 Copyright © 2024 YN-ANALYTICS. All rights reserved. 
